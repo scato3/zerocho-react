@@ -10,7 +10,6 @@ const Td = ({ rowIndex, cellIndex, dispatch, cellData }) => {
     },[rowIndex, cellIndex, dispatch, cellData])
 
     const onClickTd = useCallback(() => {
-        console.log(rowIndex, cellIndex)
         if(cellData) {
             return;
         }
